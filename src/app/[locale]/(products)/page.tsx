@@ -4,7 +4,7 @@ import { Locales, defaultLocale } from '@/locale';
 import { DiscoverService } from '@/server/services/discover';
 import { isMobileDevice } from '@/utils/responsive';
 
-import List from './products/List';
+import List from './_components/ProductList/List';
 
 type Props = { searchParams: { hl?: Locales } };
 

@@ -20,7 +20,7 @@ import { useTranslations } from 'next-intl';
 import Icon from '@/components/ui/Icon';
 import { ProductCategory } from '@/types/discover';
 
-import { ICON_SIZE } from '../_components/CategoryMenu';
+import { ICON_SIZE } from '../CategoryMenu';
 
 export const useCategory = (fontsize?: number) => {
   const theme = useTheme();

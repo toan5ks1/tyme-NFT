@@ -6,6 +6,9 @@ import { getLocale, getTranslations } from 'next-intl/server';
 
 import { SiteHeader } from '@/components/SiteHeader';
 import ThemeProvider from '@/components/ThemeProvider';
+import '@/styles/globals.css';
+
+import 'antd/dist/reset.css';
 
 export default async function RootLayout({
   children,

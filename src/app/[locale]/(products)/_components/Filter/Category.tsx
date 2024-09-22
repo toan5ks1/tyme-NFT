@@ -10,7 +10,7 @@ import urlJoin from 'url-join';
 import { useQueryRoute } from '@/hooks/useQueryRoute';
 import { ProductCategory } from '@/types/discover';
 
-import CategoryMenu from '../_components/CategoryMenu';
+import CategoryMenu from '../CategoryMenu';
 import { useCategory } from './useCategory';
 
 const Category = memo(() => {

@@ -9,7 +9,7 @@ import urlJoin from 'url-join';
 
 import { DiscoverProductItem } from '@/types/discover';
 
-import VirtuosoGridList from '../_components/VirtuosoGridList';
+import VirtuosoGridList from '../VirtuosoGridList';
 import Card from './Card';
 
 export interface ListProps {

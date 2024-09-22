@@ -13,9 +13,9 @@ import Avatar from '@/components/ui/Avatar';
 import Tag from '@/components/ui/Tag';
 import { DiscoverProductItem } from '@/types/discover';
 
-import AuthorAvatar from '../_components/AuthorAvatar';
-import CardBanner from '../_components/CardBanner';
-import { useCategoryItem } from './useCategory';
+import AuthorAvatar from '../AuthorAvatar';
+import CardBanner from '../CardBanner';
+import { useCategoryItem } from '../Filter/useCategory';
 
 const Link = dynamic(() => import('next/link'), {
   loading: () => <Skeleton.Button size={'small'} style={{ height: 22 }} />,
@@ -65,14 +65,14 @@ const useStyles = createStyles(({ css, token, isDarkMode }) => ({
   `,
 }));
 
-export interface AssistantCardProps
+export interface ProductCardProps
   extends Omit<DiscoverProductItem, 'suggestions' | 'socialData' | 'config'>,
     Omit<FlexboxProps, 'children'> {
   showCategory?: boolean;
   variant?: 'default' | 'compact';
 }
 
-const AssistantCard = memo<AssistantCardProps>(
+const ProductCard = memo<ProductCardProps>(
   ({ showCategory, className, meta, createdAt, author, variant, ...rest }) => {
     const { avatar, title, imgUrl, description, tags = [], category } = meta;
     const { cx, styles, theme } = useStyles();
@@ -193,6 +193,6 @@ const AssistantCard = memo<AssistantCardProps>(
     );
   },
 );
-AssistantCard.displayName = 'AssistantCard';
+ProductCard.displayName = 'ProductCard';
 
-export default AssistantCard;
+export default ProductCard;
