@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "Next.js",
+    "desc": "Using Ant-Design 5 with Next.js 13 and Tailwind CSS"
+  },
+  "nav": {
+    "home": "Home"
+  },
+  "theme": {
+    "light": "light",
+    "dark": "dark",
+    "system": "system"
+  },
+  "error": {
+    "backHome": "Back to Home",
+    "desc": "Give it a try later, or go back to the known world.",
+    "retry": "Reload",
+    "title": "Oops, something went wrong.."
+  },
+  "notFound": {
+    "backHome": "Back to Home",
+    "check": "Please check if your URL is correct.",
+    "desc": "We couldn't find the page you were looking for.",
+    "title": "Entered Unknown Territory?"
+  },
+  "category": {
+    "academic": "Academic",
+    "all": "All",
+    "career": "Career",
+    "copywriting": "Copywriting",
+    "design": "Design",
+    "education": "Education",
+    "emotions": "Emotions",
+    "entertainment": "Entertainment",
+    "games": "Games",
+    "general": "General",
+    "life": "Life",
+    "marketing": "Marketing",
+    "office": "Office",
+    "programming": "Programming",
+    "translation": "Translation"
+  },
+  "discover": {
+    "product": {
+      "title": "title",
+      "description": "description"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "Next.js",
+    "desc": "Ant-Design 5 Next.js 13 Tailwind CSS"
+  },
+  "nav": {
+    "home": "Trang chủ"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  },
+  "error": {
+    "backHome": "Quay về Trang chủ",
+    "desc": "Hãy thử lại sau, hoặc quay về thế giới đã biết",
+    "retry": "Thử lại",
+    "title": "Trang gặp một chút vấn đề.."
+  },
+  "notFound": {
+    "backHome": "Quay về Trang chủ",
+    "check": "Vui lòng kiểm tra xem URL của bạn có đúng không",
+    "desc": "Chúng tôi không thể tìm thấy trang bạn đang tìm kiếm",
+    "title": "Bước vào vùng đất chưa biết?"
+  },
+  "category": {
+    "academic": "Academic",
+    "all": "All",
+    "career": "Career",
+    "copywriting": "Copywriting",
+    "design": "Design",
+    "education": "Education",
+    "emotions": "Emotions",
+    "entertainment": "Entertainment",
+    "games": "Games",
+    "general": "General",
+    "life": "Life",
+    "marketing": "Marketing",
+    "office": "Office",
+    "programming": "Programming",
+    "translation": "Translation"
+  },
+  "discover": {
+    "product": {
+      "title": "title",
+      "description": "description"
+    }
+  }
+}
